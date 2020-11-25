@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
+
+  key = {};
+  value: string;
   constructor() {}
 }
