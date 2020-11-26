@@ -1,3 +1,4 @@
+import { OLComponent } from './components/ol/ol.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
@@ -11,6 +12,10 @@ const routes: Routes = [
       {
         path: 'map',
         component: MapComponent,
+      },
+      {
+        path: 'ol',
+        component: OLComponent,
       },
       { path: '', redirectTo: 'map', pathMatch: 'full' }
     ]
