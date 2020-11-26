@@ -1,3 +1,4 @@
+import { OLComponent } from './components/ol/ol.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,7 +13,8 @@ import { DxMapModule } from 'devextreme-angular';
   declarations: [
     AppComponent,
     MainComponent,
-    MapComponent
+    MapComponent,
+    OLComponent
   ],
   imports: [
     BrowserModule,
