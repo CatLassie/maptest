@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./map.component.css'],
 })
 export class MapComponent {
+
+  key = {};
+
   constructor(/*private http: HttpClient*/) {}
 }

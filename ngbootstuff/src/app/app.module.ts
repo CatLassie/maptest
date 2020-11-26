@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainComponent } from './components/main/main.component';
 import { MapComponent } from './components/map/map.component';
+import { DxMapModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MapComponent } from './components/map/map.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    DxMapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
